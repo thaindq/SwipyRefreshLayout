@@ -211,7 +211,7 @@ public class SwipyRefreshLayout extends ViewGroup {
      *            progress spinner should come to rest after a successful swipe
      *            gesture.
      */
-    /*
+
     public void setProgressViewOffset(boolean scale, int start, int end) {
         mScale = scale;
         mCircleView.setVisibility(View.GONE);
@@ -219,7 +219,7 @@ public class SwipyRefreshLayout extends ViewGroup {
         mSpinnerFinalOffset = end;
         mUsingCustomStart = true;
         mCircleView.invalidate();
-    }*/
+    }
 
     /**
      * The refresh indicator resting position is always positioned near the top
@@ -233,12 +233,12 @@ public class SwipyRefreshLayout extends ViewGroup {
      *            progress spinner should come to rest after a successful swipe
      *            gesture.
      */
-    /*
+
     public void setProgressViewEndTarget(boolean scale, int end) {
         mSpinnerFinalOffset = end;
         mScale = scale;
         mCircleView.invalidate();
-    }*/
+    }
 
     /**
      * One of DEFAULT, or LARGE.
